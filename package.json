@@ -1,0 +1,48 @@
+{
+  "name": "demetes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "json-server": "json-server --watch db.json --port 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.20.2",
+    "@google/generative-ai": "^0.24.1",
+    "@heroicons/react": "^2.2.0",
+    "@huggingface/inference": "^4.0.2",
+    "@stripe/react-stripe-js": "^3.7.0",
+    "@stripe/stripe-js": "^7.3.1",
+    "@types/react-toastify": "^4.0.2",
+    "@vercel/kv": "^3.0.0",
+    "axios": "^1.9.0",
+    "framer-motion": "^12.16.0",
+    "json-server": "^1.0.0-beta.3",
+    "next": "^15.3.3",
+    "openai": "^5.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.0",
+    "react-icons": "^4.10.0",
+    "react-markdown": "^8.0.7",
+    "react-multistep": "^5.5.9",
+    "react-select": "^5.7.4",
+    "react-toastify": "^11.0.5",
+    "remark": "^14.0.3",
+    "remark-html": "^15.0.2",
+    "stripe": "^12.18.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "typescript": "^5"
+  }
+}
